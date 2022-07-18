@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kanban</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
@@ -32,7 +38,7 @@
         <section id="kanbanDisplay">
           <div id="todoColumn">
             <h2>TODO(4)</h2>
-            <ul>
+            <ul id="todo">
               <li>
                 <h3>BUILD UI for onboarding flow</h3>
                 <h4>0 of 3 subtasks</h4>
@@ -42,14 +48,17 @@
                 <h4>0 of 1 subtasks</h4>
               </li>
               <li>
-                <h3>BUILD UI for onboarding flow</h3>
+                <h3>BUILD setting UI</h3>
                 <h4>0 of 2 subtasks</h4>
               </li>
               <li>
-                <h3>BUILD UI for onboarding flow</h3>
+                <h3>QA and test all major user journeys</h3>
                 <h4>0 of 2 subtasks</h4>
               </li>
             </ul>
+          </div>
+          <div id="newColumn">
+            <h2>+New Column</h2>
           </div>
         </section>
       </section>
